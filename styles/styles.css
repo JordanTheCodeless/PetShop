@@ -1,0 +1,41 @@
+body{
+    background-image: url('../images/background.jpg');
+text-align: center;
+margin:0 auto;
+
+}
+.mainLogo{
+    width: 100px auto;
+    float: left;
+}
+.container-fluid{
+    text-align: center;
+
+}
+.headers{
+    margin-top: 30px;
+}
+.mainHeader{
+    color:blue;
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+.subHeader{
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+
+}
+hr{
+    color: 10px blue dotted;
+}
+.navBar>a{
+    padding:10px;
+    font-size: larger;
+}
+.navBar{
+    margin-bottom: 20px;
+}
+#listMain>ol li{
+    float: left;
+    text-align: left;
+}
