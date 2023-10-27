@@ -36,6 +36,9 @@ hr{
     margin-bottom: 20px;
 }
 #listMain>ol li{
-    float: left;
+    
     text-align: left;
+}
+#listMain{
+    width: 80%;
 }
