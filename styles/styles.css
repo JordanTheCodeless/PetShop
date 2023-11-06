@@ -2,6 +2,7 @@ body{
     background-image: url('../images/background.jpg');
 text-align: center;
 margin:0 auto;
+font-weight: bold;
 
 }
 .mainLogo{
@@ -71,6 +72,7 @@ h5{
  }
  .col-sm img{
     width: 70%;
+    height:350px;
  }
  .adoptExpand:hover{
     transform:scale(0.9);
