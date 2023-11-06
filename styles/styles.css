@@ -8,8 +8,11 @@ margin:0 auto;
     width: 100px auto;
     float: left;
 }
+
 .container-fluid{
     text-align: center;
+    width:90%;
+    margin: auto;
 
 }
 .headers{
@@ -38,7 +41,41 @@ hr{
 #listMain>ol li{
     
     text-align: left;
+    font-weight:bold;
+  
 }
 #listMain{
-    width: 80%;
+    width: 90%;
+    margin: auto;
+    
 }
+
+.tableInfo{
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+    margin: auto;
+}
+ .tableInfo td,tr>th{
+    border:2px solid black;
+    padding:3px;
+    
+    
+}
+h5{
+    font-weight: bold;
+}
+
+ hr,.dottedLine{
+    border-top: 4px dashed blue;
+ }
+ .col-sm img{
+    width: 70%;
+ }
+ .adoptExpand:hover{
+    transform:scale(0.9);
+    transition: ease-out;
+ }
+    
+
+
