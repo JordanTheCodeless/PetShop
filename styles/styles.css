@@ -56,7 +56,7 @@ hr{
     text-align: center;
     margin: auto;
 }
- .tableInfo td,tr>th{
+ .tableInfo td,tr th{
     border:2px solid black;
     padding:3px;
     
@@ -74,8 +74,16 @@ h5{
  }
  .adoptExpand:hover{
     transform:scale(0.9);
-    transition: ease-out;
+    transition: ease-in-out;
  }
     
-
+.adoptionForm th{
+    border: none;
+}
+.adoptionForm{
+    text-align: center;
+}
+button>.submitButton{
+    width: 80px;
+}
 
